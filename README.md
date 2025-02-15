@@ -1,0 +1,1 @@
+A streamlit app to rate and save my interests using Duck db

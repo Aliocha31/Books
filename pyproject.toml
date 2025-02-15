@@ -1,13 +1,16 @@
 [project]
 name = "books"
 version = "0.1.0"
-description = "Add your description here"
+description = "App for my books, films and exhibitions"
 readme = "README.md"
 authors = [
     { name = "Aliocha31", email = "juliette.bornier.3110@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "duckdb>=1.2.0",
+    "pandas>=2.2.3",
+]
 
 [project.scripts]
 books = "books:main"
